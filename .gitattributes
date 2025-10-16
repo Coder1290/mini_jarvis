@@ -1,0 +1,23 @@
+# Auto-detect text files and normalize line endings
+* text=auto
+
+# Python files should always use LF (standard across most teams)
+*.py text eol=lf
+
+# Django-related files
+*.html text eol=lf
+*.css text eol=lf
+*.js text eol=lf
+
+# Windows-specific scripts can keep CRLF
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# Keep binary files untouched
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.pdf binary
+*.db binary
