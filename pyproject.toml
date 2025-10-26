@@ -6,4 +6,8 @@ readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
     "django>=5.2.7",
+    "psutil>=7.1.0",
+    "pyaudio>=0.2.14",
+    "pyttsx3>=2.99",
+    "speechrecognition>=3.14.3",
 ]
